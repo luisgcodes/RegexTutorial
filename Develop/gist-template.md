@@ -1,6 +1,6 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+A Regex which is short for regular expression, is a string of text that allows you to create patterns to match character combinations. Regex can help in many ways such as being able to verify an email address, a phone number and matching passwords as well.
 
 ## Summary
 
