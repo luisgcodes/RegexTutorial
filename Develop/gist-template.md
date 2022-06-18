@@ -3,7 +3,7 @@ A Regex which is short for regular expression, is a string of text that allows y
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+There are quite a bit of areas where Regex can be used but today we'll be going over being able to verify an email address. To begin we need to understand that a regular expression that matches all the possible valid email addresses does not exist. The best approach when validating is to limit the user's input from the beginning.
 
 ## Table of Contents
 
