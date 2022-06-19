@@ -39,7 +39,10 @@ The following symbol, (|) represents the OR Operator which either matches what's
 '^[A-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[A-Z0-9.-]+$'
 ```
 ### Character Classes
-
+Character classes are commonly used when it comes to regular expressions. With the character classes, you can tell the regex to soley match one out of several characters and even use a hyphen to specify a range of charaacters which can be seen in our previous example.
+```
+'...[A-Z0-9.-]+$'
+```
 ### Flags5
 
 ### Grouping and Capturing
