@@ -6,7 +6,7 @@ A Regex which is short for regular expression, is a string of text that allows y
 There are quite a bit of areas where Regex can be used but today we'll be going over being able to verify an email address. To begin we need to understand that a regular expression that matches all the possible valid email addresses does not exist. The best approach when validating is to limit the user's input from the beginning. Below is a snipit of what an email regex can look like.
 
 ```
-'[a-z0-9]+@[a-z]+\.[a-z]{2,3}'
+'^([a-z0-9]+@[a-z]+\.[a-z]{2,3})$'
 ```
 
 ## Table of Contents
@@ -26,6 +26,7 @@ There are quite a bit of areas where Regex can be used but today we'll be going 
 ## Regex Components
 
 ### Anchors
+Anchors are special characters have a particular job when it comes to regular expressions. They match a position before or after the characters. For example, The carrot anchor (^) matches the beginning of the text where the dollar sign ($) matches the end of the text.
 
 ### Quantifiers
 
