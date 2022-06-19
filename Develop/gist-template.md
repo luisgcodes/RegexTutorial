@@ -55,7 +55,10 @@ Regular expressions can contain brackets so that they can indicate a set of char
 '...[A-Z0-9.-]'
 ```
 ### Greedy and Lazy Match
-
+Within regular expressions, we can also see "Greedy and Lazy match". 'Greedy' matches the longest possible string while 'Lazy' matches the shortest. By default, all quantifiers are greedy and to make them 'Lazy', the user needs to append a question mark, '?'. An example of this is shown below: 
+```
+'{0,5}?'
+```
 ### Boundaries
 
 ### Back-references
