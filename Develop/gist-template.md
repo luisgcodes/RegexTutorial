@@ -43,8 +43,8 @@ Character classes are commonly used when it comes to regular expressions. With t
 ```
 '...[A-Z0-9.-]+$'
 ```
-### Flags5
-
+### Flags
+Regular expressions have optional flags which allow for global searching, case-insensitive searching and more. For example, '/\w+\s/g' creates a regex that searches for one or more characters which is then followed by a space and looks for a combination within the string.
 ### Grouping and Capturing
 
 ### Bracket Expressions
