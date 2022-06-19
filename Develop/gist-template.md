@@ -60,11 +60,14 @@ Within regular expressions, we can also see "Greedy and Lazy match". 'Greedy' ma
 '{0,5}?'
 ```
 ### Boundaries
+Regex boundries are used with the '\b' symbol. Its an anchor just like the caret symbol '^' and the dollar sign '$'. It allows the user to search for 'whole words only' 
 
 ### Back-references
-
+Back-references are used to matach same text that was previously matched by capturing a group. To do this, the user needs to put an openeing tag into a backreference so that the user can reuse the name of the tag for the closing tag. 
 ### Look-ahead and Look-behind
+Now so that the user can discover ocurring patterns, 'look-ahead' and 'look-behind' can be used. When it comes to 'look-ahead', the user should use '?=' and for 'look-behind', '?<=' needs to be used. 
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Luis Gutierrez. I am a front-end developer who is currently enrolled in a UCR Coding bootcamp extension on the mission to develop my skills. Below is a link to my Github with some of the work I have done. 
+https://github.com/luisgcodes
