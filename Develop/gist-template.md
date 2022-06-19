@@ -46,7 +46,7 @@ Character classes are commonly used when it comes to regular expressions. With t
 ### Flags
 Regular expressions have optional flags which allow for global searching, case-insensitive searching and more. For example, '/\w+\s/g' creates a regex that searches for one or more characters which is then followed by a space and looks for a combination within the string.
 ### Grouping and Capturing
-
+Grouping and capturing tend to be used in a regex with parenthesis to seperate a series of criteria or for creating blocks of patterns to apply repetitions or modifiers as a whole. 
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
