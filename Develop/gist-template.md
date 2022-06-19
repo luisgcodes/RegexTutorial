@@ -31,11 +31,16 @@ Anchors are special characters have a particular job when it comes to regular ex
 ### Quantifiers
 When it comes to regular expression quantifiers, they match a number of instances of a character, group, or character class in a string. An example of a simple quantifier is a number in curly braces {n}. When the user appends it to a character, it specifies how many characters the user would want to match. Here is an example of that:
  /\d{4}/ matches a four-digit number.
-### OR Operator
 
+### OR Operator
+The following symbol, (|) represents the OR Operator which either matches what's to the left or right of the that symbol. Below is an example using the pipe symbol.
+
+```
+'^[A-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[A-Z0-9.-]+$'
+```
 ### Character Classes
 
-### Flags
+### Flags5
 
 ### Grouping and Capturing
 
