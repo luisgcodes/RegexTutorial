@@ -29,7 +29,8 @@ There are quite a bit of areas where Regex can be used but today we'll be going 
 Anchors are special characters have a particular job when it comes to regular expressions. They match a position before or after the characters. For example, The carrot anchor (^) matches the beginning of the text where the dollar sign ($) matches the end of the text.
 
 ### Quantifiers
-
+When it comes to regular expression quantifiers, they match a number of instances of a character, group, or character class in a string. An example of a simple quantifier is a number in curly braces {n}. When the user appends it to a character, it specifies how many characters the user would want to match. Here is an example of that:
+ /\d{4}/ matches a four-digit number.
 ### OR Operator
 
 ### Character Classes
